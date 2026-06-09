@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'AutoAtendimento.dart';
+import 'MyApp.dart';
 
 void main() {
-  runApp(const AutoAtendimento());
+  runApp(const MyApp());
 }
 
 
