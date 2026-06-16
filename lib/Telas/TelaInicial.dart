@@ -17,7 +17,7 @@ class TelaInicial extends StatelessWidget {
             Image.asset('assets/imagens/logo300.png', width: screenWidth * 0.4),
             InkWell(
               onTap: () {
-                print("mim apertaro");
+                Navigator.pushReplacementNamed(context, '/addcliente');
               },
               
               child: Card(
